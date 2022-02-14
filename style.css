@@ -1,0 +1,86 @@
+html{
+    background-image: linear-gradient(130deg, rgb(189, 45, 45), rgb(105, 105, 230));
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+body{
+    width: 700px;
+    margin-left: 30%;
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: white;
+    text-align: center;
+}
+input{
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    padding-left: 10px;
+}
+#plus-button {
+    display: flex;
+    margin-left: 94%;
+    margin-top: -6%;
+    color: rgb(105, 105, 230);
+    font-size: 30px;
+    cursor: pointer;
+}
+#plus-button:hover {
+    color: rgb(67, 67, 235);
+}
+#display-todos {
+    background-color: white;
+    height: auto;
+    margin-top: 30px;
+    width: 101.7%;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+li {
+    list-style: none;
+    padding: 15px;
+    margin-right: 10px;
+    border-bottom: 1px solid lightgray;
+    color: rgb(56, 56, 56)
+}
+.check-square, .trash-alt {
+    color: rgb(105, 105, 230);
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    float: right;
+}
+.check-square:hover{
+    color: rgb(93, 201, 21);
+}
+.trash-alt:hover{
+    color: red;
+}
+.check-square-toggle{
+    background-color: rgb(240, 239, 239);
+    color:rgb(93, 201, 21)
+}
+.li-line-through{
+    text-decoration: line-through;
+    background-color: rgb(240, 239, 239);
+}
+.trash-background-gray{
+    background-color: rgb(240, 239, 239);
+}
+.clear-all{
+    border: none;
+    font-size: 18px;
+    background-color: white;
+    cursor: pointer;
+    float: right;
+    padding-right: 20px;
+}
+.clear-all:hover{
+    color:red;
+}
